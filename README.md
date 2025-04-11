@@ -21,8 +21,7 @@
     - [Recursive Solution](#2-recursive-solution-solutionusingrecursion)
   - [Usage Example](#usage-example)
   - [Special Cases](#special-cases)
-  - [License](#license)
-  - [Author](#author)
+  - [Project Structure](#project-structure)
 - [Português](#português)
   - [Descrição](#descrição)
   - [Motivação](#motivação)
@@ -34,8 +33,9 @@
   - [Implementações](#implementações)
   - [Exemplo de Uso](#exemplo-de-uso)
   - [Casos Especiais](#casos-especiais)
-  - [Licença](#licença)
-  - [Autor](#autor)
+  - [Estrutura do Projeto](#estrutura-do-projeto)
+- [License](#license)
+- [Author](#author)
 
 ## English
 
@@ -115,13 +115,10 @@ System.out.println(recursiveOrder);  // Output: "wertf"
 3. Invalid sequence: Returns empty string
 4. Prefix violation: Returns empty string
 
-### License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-### Author
-**Luis Machado Reis**
-- GitHub: [@luismr](https://github.com/luismr)
-- LinkedIn: [Luis Machado Reis](https://www.linkedin.com/in/luismr/)
+### Project Structure
+- `src/main/java`: Source files
+- `src/test/java`: Test files
+- `target`: Compiled files (generated)
 
 ## Português
 
@@ -201,37 +198,17 @@ System.out.println(recursiveOrder);  // Saída: "wertf"
 3. Sequência inválida: Retorna string vazia
 4. Violação de prefixo: Retorna string vazia
 
-### Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
+### Estrutura do Projeto
+- `src/main/java`: Arquivos fonte
+- `src/test/java`: Arquivos de teste
+- `target`: Arquivos compilados (gerados)
 
-### Autor
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Author
 **Luis Machado Reis**
 - GitHub: [@luismr](https://github.com/luismr)
-- LinkedIn: [Luis Machado Reis](https://www.linkedin.com/in/luismr/)
-
-## Development
-
-- Java 8 JDK
-- Maven 3.x
-
-## Building the Project
-
-To build the project, run:
-
-```bash
-mvn clean install
-```
-
-## Running Tests
-
-To run the tests:
-
-```bash
-mvn test
-```
-
-## Project Structure
-
-- `src/main/java`: Source files
-- `src/test/java`: Test files
-- `target`: Compiled files (generated) 
+- LinkedIn: [@luismachadoreis](https://linkedin.com/in/luismachadoreis)
+- X: [@luismachadoreis](https://x.com/luismachadoreis)
+- Bluesky: [@luismachadoreis](https://bsky.app/profile/luismachadoreis.bsky.social) 
